@@ -3,7 +3,7 @@
 ## Summary
 **RespirAI** is a portable, standalone wearable device designed for real-time respiratory pattern monitoring and early detection of respiratory disorders including apnea, hypopnea, and shallow breathing. Developed as part of the TRL-8 sensor development program, RespirAI addresses the critical gap in affordable respiratory monitoring technology, particularly for rural and underserved populations where traditional healthcare access is limited.
 
-The system operates independently without requiring internet connectivity or mobile device pairing, making it ideal for home use, remote healthcare monitoring, and emergency response scenarios. With a target cost of less than ₹2500 ($30), RespirAI democratizes access to continuous respiratory health monitoring.
+The system operates independently without requiring internet connectivity or mobile device pairing, making it ideal for home use, remote healthcare monitoring, and emergency response scenarios. With a target cost of less than ₹2500, RespirAI democratizes access to continuous respiratory health monitoring.
 
 ## 1. Integrated Biosensing Modalities
 RespirAI combines dual-sensor fusion technology to achieve superior accuracy and reliability in respiratory pattern detection:
