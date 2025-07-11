@@ -1,0 +1,40 @@
+
+
+Monitor outputvia Serial Monitor (9600 baud)
+
+Circuit Connections
+
+| Component     | Arduino Pin |     Notes         |
+|---------------|-------------|-------------------|
+| MLX90614 SDA  | A4          | I2C Data          |
+| MLX90614 SCL  | A5          | I2C Clock         |
+| MLX90614 Vin  | 3.3v/5v     | Power Supply      |
+| MLX90614 GND  | GND         | Ground            |
+| BMP280 SDA    | A4          | Shared I2C        |
+| BMP280 SCL    | A5          | Shared I2C        |
+| BMP280 Vcc    | 3.3v/5v     | Power supply      |
+| BMP280 GND    | GND         | Ground            |
+| Red LED       | Pin 7       | Apnea Alert       |
+| Yellow LED    | Pin 8       | Hypopnea Alert    |
+| Green LED     | Pin 9       | Normal Breathing  |
+| Blue LED      | Pin 10      | Shallow Breathing |
+| Buzzer        | Pin 6       | Audio Alert       |
+
+ Status Indicators
+
+| LED Color   |  Status   |         Description             |
+|-------------|-----------|---------------------------------|
+| 🟢 Green    | Normal    | Regular breathing detected      |
+| 🔵 Blue     | Shallow   | Reduced breathing amplitude    |
+| 🟡 Yellow   | Hypopnea  | Significantly reduced airflow  |
+| 🔴 Red      | Apnea     | No breathing detected + Buzzer |
+
+
+
+
+
+
+
+---
+
+**Star ⭐ this repository if you find it helpful!**
